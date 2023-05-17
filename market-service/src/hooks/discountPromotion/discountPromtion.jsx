@@ -1,8 +1,6 @@
 import { useState } from "react";
 
-function discountPromotion() {
+export default function discountPromotion() {
   const [isTrue, setIsTrue] = useState(true);
   return [isTrue, setIsTrue];
 }
-
-export default discountPromotion;
