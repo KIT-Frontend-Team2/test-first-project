@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default countUpShipping = () => {
+export default useCountUpShipping = () => {
   const [count, setCount] = useState(0);
   return [count, setCount];
 };
